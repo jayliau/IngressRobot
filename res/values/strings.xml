@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IngressRobot</string>
+    <string name="action_settings">Debug</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="action_image_pic">pic image</string>
+    <string name="action_start_service">start service</string>
+    <string name="action_save_config">save config</string>
+
+</resources>

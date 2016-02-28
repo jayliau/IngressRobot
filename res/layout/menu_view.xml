@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ToggleButton
+        android:id="@+id/button_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="M"
+        android:textOn="Menu" />
+    
+    <Button
+        android:id="@+id/button_hack"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/button_menu"
+        android:text="H"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button_drop"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_toRightOf="@+id/button_hack"
+        android:text="D" />
+
+    <Button
+        android:id="@+id/button_recycle"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_toRightOf="@+id/button_drop"
+        android:text="R" />
+
+    <Button
+        android:id="@+id/button_aquire"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_toRightOf="@+id/button_recycle"
+        android:text="A" />
+
+    <ToggleButton
+        android:id="@+id/button_move"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Move"
+        android:layout_toRightOf="@+id/button_aquire"
+        android:visibility="invisible" />
+    
+    
+    <Button
+        android:id="@+id/button_up"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/button_menu"
+        android:text="↑"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button_down"
+       android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/button_up"
+        android:text="↓"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button_left"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/button_down"
+        android:text="←"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button_right"
+       android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/button_left"
+        android:visibility="invisible"
+        android:text="→" />
+
+</RelativeLayout>

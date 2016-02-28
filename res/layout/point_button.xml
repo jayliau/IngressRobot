@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    
+    <Button 
+        android:id="@+id/center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Center"
+        android:onClick="onClick"/>
+
+    <Button 
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/hack"
+        android:layout_below="@+id/center"
+        android:text="OK"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/hack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/center"
+        android:onClick="onClick"
+        android:text="Hack" />
+
+    <Button
+        android:id="@+id/ops"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/center"
+        android:onClick="onClick"
+        android:text="Ops" />
+    <Button
+        android:id="@+id/item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hack"
+        android:onClick="onClick"
+        android:text="Item" />
+
+    <Button 
+        android:id="@+id/recycle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/drop"
+        android:layout_below="@+id/item"
+        android:text="Recycle"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/drop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item"
+        android:onClick="onClick"
+        android:text="Drop" />
+
+    <Button
+        android:id="@+id/aquire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/drop"
+        android:onClick="onClick"
+        android:text="Aquire" />
+</RelativeLayout>
